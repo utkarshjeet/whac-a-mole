@@ -4,6 +4,8 @@ const squares = document.querySelectorAll('.square')
 
 let game = null
 let time = 60
+const lund= 0;
+
 
 function move() {
 
