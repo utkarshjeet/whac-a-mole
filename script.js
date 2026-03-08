@@ -37,8 +37,15 @@ squares.forEach(square => {{
        clickId = event.target.id    
         if(random == clickId-1 )
     {
-        result++
-        score.innerText = result
+            result++
+            score.innerText = result
+            const sounds = ["./sound.mp3", "./sound1.mp3", "./sound3.mp3"];
+
+            const randomSound = Math.floor(Math.random() * sounds.length);
+
+            const audio = new Audio(sounds[randomSound]);
+            audio.play();
+   
     }
 
     })

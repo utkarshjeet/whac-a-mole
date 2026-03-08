@@ -25,5 +25,7 @@ body {
 
 
 .mole{
-    background-color: blue;
+     
+    background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3R0dG40aTN4bWI1YXBwMWM3aTRlbWdldnh1ZjZkMHoyM3pxeThpMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iojLAcf5ZETPq/giphy.gif);
+    background-size: cover;
 }
