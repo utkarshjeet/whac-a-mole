@@ -1,5 +1,5 @@
-const score = document.querySelector('.score')
-const timer = document.querySelector('.time')
+const score = document.querySelector('#score')
+const timer = document.querySelector('#time')
 const squares = document.querySelectorAll('.square')
 
 let game = null
